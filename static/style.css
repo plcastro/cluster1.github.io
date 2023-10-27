@@ -22,6 +22,7 @@ header {
   background-image: linear-gradient(var(--dark), var(--blue));
 }
 #hero-img {
+  margin-top: 4rem;
   filter: drop-shadow(10px 5px 20px var(--glow));
   animation: float 3.5s ease-in-out infinite;
 }
