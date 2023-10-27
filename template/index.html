@@ -13,8 +13,6 @@
     <title>TERM PROJECT</title>
   </head>
   <body onload="myFunction()" style="margin: 0">
-    <div id="loader"></div>
-    <div class=""></div>
     <div style="display: none" id="myDiv" class="animate-bottom">
       <header>
         <nav
@@ -46,13 +44,13 @@
         <div class="container-fluid text-light">
           <div class="row align-items-center d-flex justify-content-center">
             <img
-              class="col-xs-12 col-md-6 col-lg-5"
+              class="col-xs-10 col-md-6 col-lg-5"
               src="/img/Header img.png"
               alt="Biodiversity"
               id="hero-img"
             />
             <div
-              class="col-xs-12 col-md-6 col-lg-5 p-3 text-lg-start text-xs-center"
+              class="col-xs-12 col-md-6 col-lg-5 p-3 text-center text-lg-start"
             >
               <h1>
                 Biodiversity and the Sustainable Development Goals:
@@ -78,17 +76,18 @@
           >
             <div class="row d-flex justify-content-evenly">
               <div class="col-xs-8 col-md-10 p-4">
+                <img
+                  class="mx-auto d-block"
+                  src="/img/leaf.png"
+                  alt=""
+                  style="height: 4rem; margin-bottom: 2em"
+                />
                 <h3 class="text-center">
                   <small class="text-body-primary"
                     >What is Biodiversity and the Sustainable Development
                     Goals?</small
-                  ><img
-                    src="/img/leaf.png"
-                    alt=""
-                    style="padding-bottom: 1em"
-                  />
+                  >
                 </h3>
-
                 <p align="justify">
                   Biodiversity, ecosystems and the essential services that they
                   deliver are central pillars for all life on the planet,
@@ -100,7 +99,27 @@
                   Biodiversity underpins all fishing and aquaculture activities,
                   as well as other species harvested for foods and medicines.
                 </p>
+                <div align="center">
+                  <audio controls>
+                    <source src="" type="" />
+                  </audio>
+                </div>
+
+                <img
+                  class="mx-auto d-block"
+                  src="/img/ecology.png"
+                  alt=""
+                  style="height: 12em; margin-top: 2em"
+                />
+                <hr
+                  class="col-sm-12 col-md-12 col-xxl-12"
+                  style="
+                    color: rgb(252, 252, 252);
+                    background-color: rgb(255, 255, 255);
+                  "
+                />
               </div>
+
               <!-- <div class="col-md-4 col-xs-12 p-4">
                 <h3>
                   <small class="text-body-primary"
@@ -142,7 +161,7 @@
         >
           <div class="container-lg text-light">
             <div class="row d-flex justify-content-evenly">
-              <div class="col-md-5 col-xs-12">
+              <div class="col-lg-6 col-md-7 col-xs-12">
                 <img
                   src="/img/sample img/image.png"
                   alt=""
@@ -150,7 +169,7 @@
                   style="min-width: 90%; max-width: 100%"
                 />
               </div>
-              <div class="col-md-5 col-xs-12">
+              <div class="col-lg-6 col-md-12 col-xs-12">
                 <h4 class="text-right" style="margin-top: 1rem">Description</h4>
                 <p align="justify">
                   The Sustainable Development Goals (SDGs) depend on
@@ -193,7 +212,6 @@
       }
 
       function showPage() {
-        document.getElementById("loader").style.display = "none";
         document.getElementById("myDiv").style.display = "block";
       }
     </script>
