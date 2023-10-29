@@ -57,7 +57,9 @@ small {
 footer {
   background-color: var(--dark);
 }
-
+#reference {
+  word-wrap: break-word;
+}
 #myDiv {
   display: none;
 }
