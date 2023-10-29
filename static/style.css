@@ -15,11 +15,10 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: var(--blue);
 }
-
-header {
+body {
   background-image: linear-gradient(var(--dark), var(--blue));
+  position: absolute;
 }
 #hero-img {
   margin-top: 4rem;
