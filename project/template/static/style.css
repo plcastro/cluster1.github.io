@@ -20,7 +20,6 @@ body {
 body {
   background-image: linear-gradient(var(--dark), var(--blue));
   background-attachment: fixed;
-  z-index: 0;
 }
 #hero-img {
   margin-top: 4rem;
