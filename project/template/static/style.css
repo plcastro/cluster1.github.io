@@ -6,6 +6,7 @@
   --blue: #19376d;
   --dark: #0b2447;
   --glow: rgb(77, 106, 255);
+  --card: #576cbc;
   --font: #fff;
 }
 html,
@@ -47,6 +48,9 @@ small {
 }
 footer {
   background-color: var(--dark);
+}
+.card-group {
+  background-image: var(--card);
 }
 #reference {
   word-wrap: break-word;
