@@ -44,16 +44,6 @@ p,
 small {
   color: var(--font);
 }
-.card {
-  margin: 3rem 1rem;
-}
-.c-img {
-  width: 100%;
-  min-height: 50vh;
-  height: 70vh;
-  object-fit: cover;
-  filter: brightness(90%);
-}
 footer {
   background-color: var(--dark);
 }
