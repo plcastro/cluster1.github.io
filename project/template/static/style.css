@@ -6,7 +6,8 @@
   --blue: #19376d;
   --dark: #0b2447;
   --glow: rgb(77, 106, 255);
-  --card: #576cbc;
+  --orange: #ff7300;
+  --darko: rgb(130, 58, 0) 0;
   --font: #fff;
 }
 html,
@@ -25,6 +26,8 @@ body {
   margin: 0;
   background-image: linear-gradient(var(--dark), var(--blue));
   background-attachment: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 #hero-img {
   margin-top: 4rem;
@@ -66,9 +69,9 @@ footer {
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 0.5s;
   animation-name: animatebottom;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 
 @-webkit-keyframes animatebottom {
