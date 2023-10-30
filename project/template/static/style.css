@@ -52,7 +52,7 @@ small {
 footer {
   background-color: var(--dark);
 }
-.card-body {
+.card {
   background: var(--card);
 }
 #reference {
