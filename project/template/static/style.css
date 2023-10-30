@@ -18,6 +18,7 @@ body {
   color: var(--font);
 }
 body {
+  margin: 0;
   background-image: linear-gradient(var(--dark), var(--blue));
   background-attachment: fixed;
 }
