@@ -52,8 +52,8 @@ small {
 footer {
   background-color: var(--dark);
 }
-.card .card-body {
-  background-image: var(--card);
+.card-body {
+  background: var(--card);
 }
 #reference {
   word-wrap: break-word;
