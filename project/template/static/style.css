@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   color: var(--font);
 }
-a img .logo {
+a .logo {
   height: 3.5rem;
 }
 body {
