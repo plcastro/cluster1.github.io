@@ -56,13 +56,8 @@ body {
   border-radius: 2px;
   background-color: #fff;
 }
-.bg-image {
-  background-image: url(./img/bg-section-2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-main section {
+section {
   padding: 7rem 0;
   color: var(--font);
 }
