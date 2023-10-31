@@ -6,9 +6,12 @@
   --blue: #19376d;
   --dark: #0b2447;
   --glow: rgb(77, 106, 255);
-  --orange: #ff7300;
-  --darko: rgb(130, 58, 0) 0;
+  --blue2: #0050ac;
+  --darko: rgb(0, 2, 46) 0;
   --font: #fff;
+}
+html {
+  scroll-behavior: smooth;
 }
 html,
 body {
