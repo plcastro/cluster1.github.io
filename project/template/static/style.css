@@ -50,7 +50,7 @@ body {
   color: #ffffff;
 }
 #challenges {
-  background: url(/project/template/img/bg-section-2.png);
+  background: url(../img/bg-section-2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
