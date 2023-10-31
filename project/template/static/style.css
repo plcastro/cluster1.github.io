@@ -7,7 +7,7 @@
   --dark: #0b2447;
   --glow: rgb(77, 106, 255);
   --blue2: #0050ac;
-  --darko: rgb(0, 2, 46) 0;
+  --darko: #00022e;
   --font: #fff;
 }
 html,
@@ -33,15 +33,30 @@ body {
   filter: drop-shadow(10px 5px 20px var(--glow));
   animation: float 3.5s ease-in-out infinite;
 }
-
 @keyframes float {
   25% {
     transform: translateY(-10px);
   }
 }
+.accordion {
+  --bs-accordion-color: var(--font);
+  --bs-accordion-btn-bg: var(--dark);
+  --bs-accordion-active-bg: var(--darko);
+  --bs-accordion-active-color: var(--font);
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-bg: var(--glow);
+}
+.accordion-button {
+  color: #ffffff;
+}
+#challenges {
+  background: url(/project/template/img/bg-section-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 main section {
-  margin: 5em 0;
-  padding: 5% 0;
+  padding: 7rem 0;
   color: var(--font);
 }
 p {
@@ -54,9 +69,7 @@ small {
 footer {
   background-color: var(--dark);
 }
-.card {
-  background: var(--card);
-}
+
 #reference {
   word-wrap: break-word;
 }
