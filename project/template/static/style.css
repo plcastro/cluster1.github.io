@@ -32,7 +32,7 @@ body {
   background-attachment: fixed;
 }
 #hero-img {
-  margin-top: 4rem;
+  margin-top: 2rem;
   filter: drop-shadow(10px 5px 20px var(--glow));
   animation: float 3.5s ease-in-out infinite;
 }
@@ -58,15 +58,12 @@ body {
 }
 
 section {
-  color: var(--font);
+  padding: 3.5rem 0;
 }
 p {
   text-indent: 25px;
 }
-p,
-small {
-  color: var(--font);
-}
+
 footer {
   background-color: var(--dark);
 }
