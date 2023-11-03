@@ -20,35 +20,48 @@ body {
 }
 body {
   overflow-x: hidden;
-}
-header {
-  margin-top: 7em;
-}
-#lAccord {
-  color: azure;
-}
-a .logo {
-  height: 3.5rem;
-}
-body {
   margin: 0;
   background-image: linear-gradient(var(--dark), var(--blue));
   background-attachment: fixed;
 }
+header {
+  margin-top: 7em;
+}
+section {
+  padding: 7rem 0;
+}
+#myDiv {
+  display: none;
+}
+p {
+  text-indent: 25px;
+}
+
+footer {
+  background-color: var(--dark);
+}
+a .logo {
+  height: 3.5rem;
+}
+
 #hero-img {
   margin-top: 2rem;
   filter: drop-shadow(10px 5px 20px var(--glow));
   animation: float 3.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  25% {
+    transform: translateY(-10px);
+  }
 }
 iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
 }
-@keyframes float {
-  25% {
-    transform: translateY(-10px);
-  }
+#lAccord {
+  color: azure;
 }
 .accordion {
   --bs-accordion-color: var(--font);
@@ -65,32 +78,10 @@ iframe {
   border-radius: 2px;
   background-color: #fff;
 }
-
-section {
-  padding: 7rem 0;
-}
-p {
-  text-indent: 25px;
-}
-#aw1 {
-  padding: 50px 30px;
-  margin: 0 0 3rem 0;
-  z-index: 2;
-  background-color: #0050ac5d;
-  border-radius: 30px;
-  border: 7px #00022e;
-}
-footer {
-  background-color: var(--dark);
-}
-
 #reference {
+  margin-top: 3em;
   word-wrap: break-word;
 }
-#myDiv {
-  display: none;
-}
-
 /* Add animation to "page content" */
 .animate-bottom {
   position: relative;
@@ -121,6 +112,7 @@ footer {
     opacity: 1;
   }
 }
+/* Audio style */
 audio {
   filter: drop-shadow(5px 5px 10px var(--glow));
 }
