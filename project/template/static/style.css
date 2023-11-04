@@ -114,6 +114,7 @@ iframe {
 }
 /* Audio style */
 audio {
+  margin-top: 2em;
   filter: drop-shadow(5px 5px 10px var(--glow));
 }
 audio::-webkit-media-controls-panel {
