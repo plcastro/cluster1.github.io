@@ -5,7 +5,6 @@
 :root {
   --blue: #19376d;
   --dark: #0b2447;
-  --glow: rgb(77, 106, 255);
   --blue2: #0050ac;
   --darko: #00022e;
   --font: #fff;
@@ -80,6 +79,9 @@ iframe {
 }
 #reference {
   margin-top: 3em;
+  padding: 20px 20px;
+  background-color: #0050ac;
+  border-radius: 20px;
   word-wrap: break-word;
 }
 /* Add animation to "page content" */
@@ -113,12 +115,13 @@ iframe {
   }
 }
 /* Audio style */
+
 audio {
-  margin-top: 2em;
-  filter: drop-shadow(5px 5px 10px var(--glow));
+  margin: 0.5em 0;
+  max-width: 250px;
 }
 audio::-webkit-media-controls-panel {
-  background-color: rgb(0, 44, 127);
+  background-color: rgb(72, 114, 193);
 }
 audio::-webkit-media-controls-play-button {
   color: rgb(255, 255, 255);
