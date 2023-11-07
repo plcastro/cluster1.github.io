@@ -156,12 +156,15 @@ audio::-webkit-media-controls-mute-button {
 }
 
 #c-ac-img {
-  height: 360px;
-  padding: 3rem;
+  max-height: 360px;
+  max-width: 400px;
+  padding: 2.5rem;
 }
 #accImg {
   height: 100%;
-  width: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
   transition: 1s;
   border-radius: 20px;
 }
