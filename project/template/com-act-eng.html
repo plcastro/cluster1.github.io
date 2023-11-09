@@ -131,7 +131,7 @@
                           >
                           <div align="center" id="audCon">
                             <audio controls>
-                              <source src="#" type="" />
+                              <source src="#" type="audio/mpeg" />
                             </audio>
                           </div>
                         </div>
@@ -193,7 +193,7 @@
                           >
                           <div align="center" id="audCon">
                             <audio controls>
-                              <source src="#" type="" />
+                              <source src="#" type="audio/mpeg" />
                             </audio>
                           </div>
                         </div>
@@ -247,7 +247,7 @@
                           >
                           <div align="center" id="audCon">
                             <audio controls>
-                              <source src="#" type="" />
+                              <source src="#" type="audio/mpeg" />
                             </audio>
                           </div>
                         </div>
@@ -303,7 +303,7 @@
                           >
                           <div align="center" id="audCon">
                             <audio controls>
-                              <source src="#" type="" />
+                              <source src="#" type="audio/mpeg" />
                             </audio>
                           </div>
                         </div>
@@ -364,7 +364,10 @@
                 </ul>
                 <div align="center" id="audCon">
                   <audio controls>
-                    <source src="#" type="" />
+                    <source
+                      src="../v.o/Importance (Content).mp3"
+                      type="audio/mpeg"
+                    />
                   </audio>
                 </div>
               </div>
@@ -406,7 +409,10 @@
                 </ul>
                 <div align="center" id="audCon">
                   <audio controls>
-                    <source src="#" type="" />
+                    <source
+                      src="../v.o/Strategies (Content).mp3"
+                      type="audio/mpeg"
+                    />
                   </audio>
                 </div>
               </div>
@@ -442,7 +448,10 @@
               </div>
               <div align="center" id="audCon">
                 <audio controls>
-                  <source src="#" type="" />
+                  <source
+                    src="../v.o/Interconnection of the Living World.mp3"
+                    type="audio/mpeg"
+                  />
                 </audio>
               </div>
             </div>
@@ -466,6 +475,19 @@
       </footer>
     </div>
     <script>
+      // audio auto stop
+      document.addEventListener(
+        "play",
+        function (e) {
+          var audios = document.getElementsByTagName("audio");
+          for (var i = 0, len = audios.length; i < len; i++) {
+            if (audios[i] != e.target) {
+              audios[i].pause();
+            }
+          }
+        },
+        true
+      );
       var myVar;
 
       function myFunction() {

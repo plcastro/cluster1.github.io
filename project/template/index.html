@@ -155,13 +155,11 @@
                 </p>
 
                 <div align="center" id="audCon">
-                  <audio
-                    controls
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="bottom"
-                    data-bs-title="Tooltip on bottom"
-                  >
-                    <source src="#" type="" />
+                  <audio controls>
+                    <source
+                      src="../v.o/What is Biodiversity and the Sustainable Development Goals_ .mp3"
+                      type="audio/mpeg"
+                    />
                   </audio>
                 </div>
                 <hr
@@ -245,7 +243,10 @@
                 >
                 <div align="center" id="audCon">
                   <audio controls>
-                    <source src="#" type="" />
+                    <source
+                      src="../v.o/Importance of Biodiversity in Achieving the Sustainable Development Goals.mp3"
+                      type="audio/mpeg"
+                    />
                   </audio>
                 </div>
               </div>
@@ -352,7 +353,10 @@
                             >
                             <div align="center" id="audCon">
                               <audio controls>
-                                <source src="#" type="" />
+                                <source
+                                  src="../v.o/War & Instability-pat.mp3"
+                                  type="audio/mpeg"
+                                />
                               </audio>
                             </div>
                           </div>
@@ -440,7 +444,10 @@
                             >
                             <div align="center" id="audCon">
                               <audio controls>
-                                <source src="#" type="" />
+                                <source
+                                  src="../v.o/Suitability and Availability.mp3"
+                                  type="audio/mpeg"
+                                />
                               </audio>
                             </div>
                           </div>
@@ -513,7 +520,10 @@
                             >
                             <div align="center" id="audCon">
                               <audio controls>
-                                <source src="#" type="" />
+                                <source
+                                  src="../v.o/Government issues-pat.mp3"
+                                  type="audio/mpeg"
+                                />
                               </audio>
                             </div>
                           </div>
@@ -603,7 +613,7 @@
                             >
                             <div align="center" id="audCon">
                               <audio controls>
-                                <source src="#" type="" />
+                                <source src="#" type="audio/mpeg" />
                               </audio>
                             </div>
                           </div>
@@ -662,7 +672,7 @@
                             >
                             <div align="center" id="audCon">
                               <audio controls>
-                                <source src="#" type="" />
+                                <source src="#" type="audio/mpeg" />
                               </audio>
                             </div>
                           </div>
@@ -713,7 +723,7 @@
                             >
                             <div align="center" id="audCon">
                               <audio controls>
-                                <source src="#" type="" />
+                                <source src="#" type="audio/mpeg" />
                               </audio>
                             </div>
                           </div>
@@ -792,7 +802,10 @@
               </div>
               <div align="center" id="audCon">
                 <audio controls>
-                  <source src="#" type="" />
+                  <source
+                    src="../v.o/Solutions and Strategies-pat.mp3"
+                    type="audio/mpeg"
+                  />
                 </audio>
                 <div class="col-lg-10 col-sm-12" align="center">
                   <h3>Examples of Natural-Based Solutions</h3>
@@ -954,6 +967,20 @@
       </footer>
     </div>
     <script>
+      // audio auto stop
+      document.addEventListener(
+        "play",
+        function (e) {
+          var audios = document.getElementsByTagName("audio");
+          for (var i = 0, len = audios.length; i < len; i++) {
+            if (audios[i] != e.target) {
+              audios[i].pause();
+            }
+          }
+        },
+        true
+      );
+
       var myVar;
 
       function myFunction() {
