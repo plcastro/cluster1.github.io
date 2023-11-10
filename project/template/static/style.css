@@ -71,7 +71,7 @@ iframe {
   --bs-accordion-active-bg: var(--darko);
   --bs-accordion-active-color: var(--font);
   --bs-accordion-btn-focus-box-shadow: none;
-  --bs-accordion-bg: #00448d;
+  --bs-accordion-bg: #00448d93;
 }
 .accordion-button {
   color: #ffffff;
