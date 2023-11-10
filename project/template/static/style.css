@@ -174,3 +174,8 @@ audio::-webkit-media-controls-mute-button {
   transform: scale(1.2);
   z-index: 2;
 }
+
+#car-caption {
+  background-color: #fdfdfd9c;
+  border-radius: 2px;
+}
