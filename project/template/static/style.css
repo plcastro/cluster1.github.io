@@ -183,7 +183,7 @@ audio::-webkit-media-controls-mute-button {
   border-radius: 2px;
 }
 #bg-main {
-  background-image: url("/project/template/img/bg-image-about.jpg");
+  background-image: url("./img/bg-image-about.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
