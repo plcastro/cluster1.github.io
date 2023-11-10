@@ -9,15 +9,15 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="icon" href="..../img/planet-earth.png" type="image/icon type" />
-    <link rel="stylesheet" href="..../static/style.css" />
+    <link rel="icon" href="../img/planet-earth.png" type="image/icon type" />
+    <link rel="stylesheet" href="../static/style.css" />
     <title>About</title>
   </head>
   <body onload="myFunction()">
     <nav class="navbar navbar-expand-lg navbar-dark" style="font-weight: bold">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><img class="logo" src="..../img/planet-earth.png" alt="" srcset=""
+          ><img class="logo" src="../img/planet-earth.png" alt="" srcset=""
         /></a>
         <button
           class="navbar-toggler"
@@ -32,8 +32,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav align-baseline">
-            <a class="nav-link" href="..../index.html">Introduction</a>
-            <a class="nav-link" href="..../com-act-eng.html"
+            <a class="nav-link" href="../index.html">Introduction</a>
+            <a class="nav-link" href="../com-act-eng.html"
               >Community Action and Engagement</a
             >
             <a class="nav-link active" aria-current="page" href="#">About</a>
@@ -41,201 +41,335 @@
         </div>
       </div>
     </nav>
-    <div style="display: none" id="myDiv" class="animate-bottom">
-      <div class="container-sm" style="margin-top: 30px">
-        <div class="row d-flex justify-content-evenly">
-          <div class="col-md-5">
-            <h3>Group Members</h3>
-            <ol>
-              <li>Laxa, Mariah Clarisse L. - Leader</li>
-              <li>Castro, Patricia Lyca - Assistant Leader</li>
-              <li>Aragon, Marimar B.</li>
-              <li>Bautista, Ma. Ellaine P.</li>
+    <main id="bg-main">
+      <div style="display: none" id="myDiv" class="animate-bottom">
+        <div class="container-sm" style="margin-top: 30px">
+          <div class="row d-flex justify-content-evenly">
+            <div class="col-md-12" style="margin: 3.5rem 0">
+              <p>
+                This webpage has been made possible using the following
+                technologies:
+              </p>
+              <li>
+                <a
+                  id="lAccord"
+                  target="_blank"
+                  href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"
+                  >Bootstrap 5</a
+                >
+              </li>
+              <li>Canva</li>
+              <li>Github</li>
+              <li>Visual Studio Code</li>
+            </div>
+            <div class="col-md-12">
+              <h3>Group Members</h3>
+              <table class="table table-dark table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Contributions</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr class="table-primary">
+                    <th scope="row">1</th>
+                    <td>Laxa, Mariah Clarisse L.</td>
+                    <td>
+                      <ul>
+                        <li>
+                          Content for What is Biodiversity and the Sustainable
+                          Development Goals, and Community Action & Engagement
+                        </li>
+                        <li>Voiceover</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">2</th>
+                    <td>Castro, Patricia Lyca</td>
+                    <td>
+                      <ul>
+                        <li>Front-end Developer</li>
+                        <li>
+                          Content of Importance of Biodiversity in Achieving the
+                          Sustainable Development Goals, and Challenges of SDGs
+                          and Biodiversity Protection
+                        </li>
+                        <li>
+                          Pictures, animations, graphics, videos, animations
+                        </li>
+                        <li>Voiceover</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">3</th>
+                    <td>Aragon, Marimar B.</td>
+                    <td>
+                      <ul>
+                        <li>Voiceover</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">4</th>
+                    <td>Bautista, Ma. Ellaine P.</td>
+                    <td>
+                      <ul>
+                        <li>Content of website</li>
+                        <li>Pictures, animations, graphics, videos</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">5</th>
+                    <td>Estravo, Gabriela</td>
+                    <td>
+                      <ul>
+                        <li>Script for Community Action & Engagement</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">6</th>
+                    <td>Orbista, Juliana Y.</td>
+                    <td>
+                      <ul>
+                        <li>Content of Community Action & Engagement</li>
+                        <li>Pictures, animations, graphics, videos</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">7</th>
+                    <td>Ortega, Maryjune</td>
+                    <td>
+                      <ul>
+                        <li>
+                          Script for Definition of SDGs and Biodiversity,
+                          Importance of Biodiversity in Achieving the
+                          Sustainable Development Goals, Solutions and
+                          Strategies
+                        </li>
+                        <li>Voiceover</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">8</th>
+                    <td>Rosios, Nuel Jay M.</td>
+                    <td>
+                      <ul>
+                        <li>
+                          Script for Challenges of SDGs (Sustainable Development
+                          Goals) and Biodiversity Protection
+                        </li>
+                        <li>Voiceover</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr class="table-primary">
+                    <th scope="row">9</th>
+                    <td>Tacda, Khatleya A.</td>
+                    <td>
+                      <ul>
+                        <li>Script for Awareness & Education</li>
+                        <li>Voiceover</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <!-- <tr>
+                  <th scope="row">10</th>
+                  <td colspan="2">Larry the Bird</td>
+                </tr>
+                <tr>
+                  <th scope="row">11</th>
+                  <td colspan="2">Larry the Bird</td>
+                </tr>
+                <tr>
+                  <th scope="row">12</th>
+                  <td colspan="2">Larry the Bird</td>
+                </tr>
+                <tr>
+                  <th scope="row">13</th>
+                  <td colspan="2">Larry the Bird</td>
+                </tr> -->
+                </tbody>
+              </table>
+
               <!-- <li>Cea, Angela Joy S.</li>
-              <li>Dela Cruz, Joanne Caryll G.</li> -->
-              <li>Estravo, Gabriella</li>
-              <!-- <li>Garibay, Christine Joy</li> -->
-              <li>Orbista, Juliana Y.</li>
-              <li>Ortega, Maryjune</li>
-              <li>Rosios, Nuel Jay M.</li>
-              <li>Tacda, Khatleya A.</li>
-              <!-- <li>Yap, Rafael Sean A.</li> -->
-            </ol>
+              <li>Dela Cruz, Joanne Caryll G.</li>
+              <li>Garibay, Christine Joy</li>
+              <li>Yap, Rafael Sean A.</li> -->
+            </div>
+
+            <div class="col-md-12" id="reference">
+              <h4>References:</h4>
+              <ul>
+                <li>
+                  #SDGsinAcademia: SDG Hub for Goal 15. (n.d.). Retrieved from
+                  <a
+                    id="lAccord"
+                    href="https://www.un.org/en/academic-impact/sdgsinacademia-sdg-hub-goal-15"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.un.org/en/academic-impact/sdgsinacademia-sdg-hub-goal-15</a
+                  >
+                </li>
+                <li>
+                  Bose, P. (2023). Importance of Biodiversity in Achieving the
+                  Sustainable Development Goals (SDGs). Retrieved from
+                  <a
+                    id="lAccord"
+                    href="https://www.azolifesciences.com/article/Importance-of-Biodiversity-in-Achieving-the-Sustainable-Development-Goals-(SDGs).aspx#:~:text=Biodiversity%20and%20SDGs,ecosystem%20services%20for%20their%20livelihood"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.azolifesciences.com/article/Importance-of-Biodiversity-in-Achieving-the-Sustainable-Development-Goals-(SDGs).aspx#:~:text=Biodiversity%20and%20SDGs,ecosystem%20services%20for%20their%20livelihood</a
+                  >
+                </li>
+                <li>
+                  BYJU'S. (2017). Biodiversity Conservation - Different Methods
+                  And Strategies. Retrieved from
+                  <a
+                    id="lAccord"
+                    href="https://byjus.com/biology/biodiversity-conservation/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://byjus.com/biology/biodiversity-conservation/</a
+                  >
+                </li>
+                <li>
+                  Financing marine protected areas. (n.d.). Retrieved from
+                  <a
+                    id="lAccord"
+                    href=" https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/solutions/marine_protected_areas/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ></a>
+                  https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/solutions/marine_protected_areas/
+                </li>
+                <li>
+                  Home | Sustainable Development. (n.d.). Retrieved from
+                  <a
+                    id="lAccord"
+                    href="https://sdgs.un.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://sdgs.un.org/</a
+                  >
+                </li>
+                <li>
+                  Examples of biodiversity projects. (n.d.). Retrieved from
+                  <a
+                    id="lAccord"
+                    href="https://www.basf.com/us/en/who-we-are/sustainability/we-produce-safely-and-efficiently/resources-and-ecosystems/biodiversity-and-ecosystems/examples-of-specific-projects.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.basf.com/us/en/who-we-are/sustainability/we-produce-safely-and-efficiently/resources-and-ecosystems/biodiversity-and-ecosystems/examples-of-specific-projects.html</a
+                  >
+                </li>
+                <li>
+                  Martín, E. G., et al (2020). Using a system thinking approach
+                  to assess the contribution of nature based solutions to
+                  sustainable development goals. Science of the Total
+                  Environment, 738, 139693.
+                  <a
+                    id="lAccord"
+                    href="https://doi.org/10.1016/j.scitotenv.2020.139693"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://doi.org/10.1016/j.scitotenv.2020.139693</a
+                  >
+                </li>
+                <li>
+                  Plastic Pollution Blogger. (2023). Sustainable Development:
+                  Challenges and Opportunities. Retrieved from
+                  <a
+                    id="lAccord"
+                    href="https://www.plasticcollective.co/sustainable-development-challenges-and-opportunities/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.plasticcollective.co/sustainable-development-challenges-and-opportunities/</a
+                  >
+                </li>
+                <li>
+                  Protecting biodiversity in the Philippines. (n.d.).
+
+                  <a
+                    id="lAccord"
+                    href="https://www.conservation.org/philippines/projects/protecting-biodiversity-in-the-philippines"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.conservation.org/philippines/projects/protecting-biodiversity-in-the-philippines</a
+                  >
+                </li>
+                <li>
+                  Roe, D. (2019). Biodiversity loss—more than an environmental
+                  emergency. The Lancet Planetary Health, 3(7), e287.
+                  <a
+                    id="lAccord"
+                    href="https://doi.org/10.1016/s2542-5196(19)30113-5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://doi.org/10.1016/s2542-5196(19)30113-5</a
+                  >
+                </li>
+                <li>
+                  Supporting sustainable conservation of biodiversity in the
+                  Philippines through USAID’s SIBOL Activity. (n.d.).
+                  <a
+                    id="lAccord"
+                    href="https://www.rti.org/impact/sustainable-conservation-biodiversity-philippines-sibol"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.rti.org/impact/sustainable-conservation-biodiversity-philippines-sibol</a
+                  >
+                </li>
+                <li>
+                  Unescounep, & Unesco. (2022). Education and awareness.
+                  Retrieved from
+                  <a
+                    id="lAccord"
+                    href="https://www.unesco.org/en/biodiversity/education#:~:text=and%20the%20CBD.-,Education%20is%20essential%20for%20the%20sustainable%20and%20equitable%20use%20of,and%20indigenous%20knowledge%20of%20biodiversity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://www.unesco.org/en/biodiversity/education#:~:text=and%20the%20CBD.-,Education%20is%20essential%20for%20the%20sustainable%20and%20equitable%20use%20of,and%20indigenous%20knowledge%20of%20biodiversity</a
+                  >
+                </li>
+                <li>
+                  UNFCC. (2021). Retrieved from
+                  <a
+                    id="lAccord"
+                    href="https://unfccc.int/blog/7-biodiversity-projects-tackling-climate-change"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://unfccc.int/blog/7-biodiversity-projects-tackling-climate-change</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-5">
+        </div>
+
+        <footer class="text-light py-5" style="margin-top: 7rem">
+          <div class="container">
             <p>
-              This webpage has been made possible using the following
-              technologies:
+              <img
+                src="../img/NU_shield.png"
+                style="max-height: 3.5rem; margin-bottom: 10px"
+                alt=""
+              />
+              &copy; Cluster 1 - INF231
             </p>
-            <li>Bootstrap 5</li>
-            <li>Canva</li>
-            <li>Github</li>
-            <li>Visual Studio Code</li>
+            <p class="float-end mb-1">
+              <a href="#">Back to top</a>
+            </p>
           </div>
-          <div class="col-sm-10" id="reference">
-            <h4>References:</h4>
-            <ul>
-              <li>
-                #SDGsinAcademia: SDG Hub for Goal 15. (n.d.). Retrieved from
-                <a
-                  id="lAccord"
-                  href="https://www.un.org/en/academic-impact/sdgsinacademia-sdg-hub-goal-15"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://www.un.org/en/academic-impact/sdgsinacademia-sdg-hub-goal-15</a
-                >
-              </li>
-              <li>
-                Bose, P. (2023). Importance of Biodiversity in Achieving the
-                Sustainable Development Goals (SDGs). Retrieved from
-                <a
-                  id="lAccord"
-                  href="https://www.azolifesciences.com/article/Importance-of-Biodiversity-in-Achieving-the-Sustainable-Development-Goals-(SDGs).aspx#:~:text=Biodiversity%20and%20SDGs,ecosystem%20services%20for%20their%20livelihood"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://www.azolifesciences.com/article/Importance-of-Biodiversity-in-Achieving-the-Sustainable-Development-Goals-(SDGs).aspx#:~:text=Biodiversity%20and%20SDGs,ecosystem%20services%20for%20their%20livelihood</a
-                >
-              </li>
-              <li>
-                BYJU'S. (2017). Biodiversity Conservation - Different Methods
-                And Strategies. Retrieved from
-                <a
-                  id="lAccord"
-                  href="https://byjus.com/biology/biodiversity-conservation/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://byjus.com/biology/biodiversity-conservation/</a
-                >
-              </li>
-              <li>
-                Financing marine protected areas. (n.d.). Retrieved from
-                <a
-                  id="lAccord"
-                  href=" https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/solutions/marine_protected_areas/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-                https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/solutions/marine_protected_areas/
-              </li>
-              <li>
-                Home | Sustainable Development. (n.d.). Retrieved from
-                <a
-                  id="lAccord"
-                  href="https://sdgs.un.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://sdgs.un.org/</a
-                >
-              </li>
-              <li>
-                Examples of biodiversity projects. (n.d.). Retrieved from
-                <a
-                  id="lAccord"
-                  href="https://www.basf.com/us/en/who-we-are/sustainability/we-produce-safely-and-efficiently/resources-and-ecosystems/biodiversity-and-ecosystems/examples-of-specific-projects.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://www.basf.com/us/en/who-we-are/sustainability/we-produce-safely-and-efficiently/resources-and-ecosystems/biodiversity-and-ecosystems/examples-of-specific-projects.html</a
-                >
-              </li>
-              <li>
-                Martín, E. G., et al (2020). Using a system thinking approach to
-                assess the contribution of nature based solutions to sustainable
-                development goals. Science of the Total Environment, 738,
-                139693.
-                <a
-                  id="lAccord"
-                  href="https://doi.org/10.1016/j.scitotenv.2020.139693"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://doi.org/10.1016/j.scitotenv.2020.139693</a
-                >
-              </li>
-              <li>
-                Plastic Pollution Blogger. (2023). Sustainable Development:
-                Challenges and Opportunities. Retrieved from
-                <a
-                  id="lAccord"
-                  href="https://www.plasticcollective.co/sustainable-development-challenges-and-opportunities/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://www.plasticcollective.co/sustainable-development-challenges-and-opportunities/</a
-                >
-              </li>
-              <li>
-                Protecting biodiversity in the Philippines. (n.d.).
-
-                <a
-                  id="lAccord"
-                  href="https://www.conservation.org/philippines/projects/protecting-biodiversity-in-the-philippines"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://www.conservation.org/philippines/projects/protecting-biodiversity-in-the-philippines</a
-                >
-              </li>
-              <li>
-                Roe, D. (2019). Biodiversity loss—more than an environmental
-                emergency. The Lancet Planetary Health, 3(7), e287.
-                <a
-                  id="lAccord"
-                  href="https://doi.org/10.1016/s2542-5196(19)30113-5"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://doi.org/10.1016/s2542-5196(19)30113-5</a
-                >
-              </li>
-              <li>
-                Supporting sustainable conservation of biodiversity in the
-                Philippines through USAID’s SIBOL Activity. (n.d.).
-                <a
-                  id="lAccord"
-                  href="https://www.rti.org/impact/sustainable-conservation-biodiversity-philippines-sibol"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://www.rti.org/impact/sustainable-conservation-biodiversity-philippines-sibol</a
-                >
-              </li>
-              <li>
-                Unescounep, & Unesco. (2022). Education and awareness. Retrieved
-                from
-                <a
-                  id="lAccord"
-                  href="https://www.unesco.org/en/biodiversity/education#:~:text=and%20the%20CBD.-,Education%20is%20essential%20for%20the%20sustainable%20and%20equitable%20use%20of,and%20indigenous%20knowledge%20of%20biodiversity"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://www.unesco.org/en/biodiversity/education#:~:text=and%20the%20CBD.-,Education%20is%20essential%20for%20the%20sustainable%20and%20equitable%20use%20of,and%20indigenous%20knowledge%20of%20biodiversity</a
-                >
-              </li>
-              <li>
-                UNFCC. (2021). Retrieved from
-                <a
-                  id="lAccord"
-                  href="https://unfccc.int/blog/7-biodiversity-projects-tackling-climate-change"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://unfccc.int/blog/7-biodiversity-projects-tackling-climate-change</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+        </footer>
       </div>
-
-      <footer class="text-light py-5" style="margin-top: 7rem">
-        <div class="container">
-          <p>
-            <img
-              src="..../img/NU_shield.png"
-              style="max-height: 3.5rem; margin-bottom: 10px"
-              alt=""
-            />
-            &copy; Cluster 1 - INF231
-          </p>
-          <p class="float-end mb-1">
-            <a href="#">Back to top</a>
-          </p>
-        </div>
-      </footer>
-    </div>
+    </main>
     <script>
       var myVar;
 
