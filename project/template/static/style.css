@@ -33,9 +33,7 @@ header {
 section {
   padding: 7rem 0;
 }
-#myDiv {
-  display: none;
-}
+
 p {
   text-indent: 25px;
 }
@@ -87,6 +85,7 @@ iframe {
   background-color: #0f2d50a9;
   border-radius: 20px;
   word-wrap: break-word;
+  border: 2px solid white;
 }
 /* Add animation to "page content" */
 .animate-bottom {
@@ -171,6 +170,7 @@ audio::-webkit-media-controls-mute-button {
   background-position: center;
   background-size: cover;
   transition: 1s;
+  border: 2px solid white;
   border-radius: 20px;
 }
 #accImg:hover,
