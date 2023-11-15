@@ -172,6 +172,7 @@ audio::-webkit-media-controls-mute-button {
   transition: 1s;
   border: 2px solid white;
   border-radius: 20px;
+  filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 #accImg:hover,
 #sdgImg:hover {
