@@ -329,7 +329,7 @@
           </div>
         </section>
         <section id="awareness" style="background-color: whitesmoke">
-          <div class="container text-black">
+          <div class="container content text-black">
             <div class="row d-flex justify-content-evenly">
               <div class="col-md-10">
                 <h2 align="center" class="p-4">Awareness and Education</h2>
@@ -434,7 +434,7 @@
           </div>
         </section>
         <section id="interconnection">
-          <div class="container">
+          <div class="container content">
             <div class="row d-flex justify-content-evenly">
               <div class="col-md-10">
                 <h2>Interconnection of the Living World</h2>
@@ -487,6 +487,23 @@
     </div>
 
     <script>
+      const boxes = document.querySelectorAll(".content");
+      function checkBoxes() {
+        const triggerBottom = (window.innerHeight / 5) * 4;
+        boxes.forEach((content) => {
+          const boxTop = content.getBoundingClientRect().top;
+
+          if (boxTop < triggerBottom) {
+            content.classList.add("show");
+          } else {
+            content.classList.remove("show");
+          }
+        });
+      }
+      window.addEventListener("scroll", checkBoxes);
+
+      checkBoxes();
+
       // audio auto stop
       document.addEventListener(
         "play",

@@ -200,8 +200,7 @@
               <li>Garibay, Christine Joy</li>
               <li>Yap, Rafael Sean A.</li> -->
             </div>
-
-            <div class="col-md-12" id="reference">
+            <div class="content col-md-12" id="reference">
               <h4>References:</h4>
               <ul>
                 <li>
@@ -243,8 +242,8 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.worldwildlife.org/places/coral-triangle?fbclid=IwAR3ZQpy4P5uoqfFx7BpB1ZEx0XCizZ4q0b6PFvQDn6griVeOzJeTgCJ1wMM"
-                  ></a>
-                  https://www.worldwildlife.org/places/coral-triangle?fbclid=IwAR3ZQpy4P5uoqfFx7BpB1ZEx0XCizZ4q0b6PFvQDn6griVeOzJeTgCJ1wMM
+                    >https://www.worldwildlife.org/places/coral-triangle?fbclid=IwAR3ZQpy4P5uoqfFx7BpB1ZEx0XCizZ4q0b6PFvQDn6griVeOzJeTgCJ1wMM</a
+                  >
                 </li>
                 <li>
                   Financing marine protected areas. (n.d.). Retrieved from
@@ -253,8 +252,8 @@
                     href=" https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/solutions/marine_protected_areas/"
                     target="_blank"
                     rel="noopener noreferrer"
-                  ></a>
-                  https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/solutions/marine_protected_areas/
+                    >https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/solutions/marine_protected_areas/</a
+                  >
                 </li>
                 <li>
                   Home | Sustainable Development. (n.d.). Retrieved from
@@ -377,6 +376,22 @@
       </div>
     </main>
     <script>
+      const boxes = document.querySelectorAll(".content");
+      function checkBoxes() {
+        const triggerBottom = (window.innerHeight / 5) * 4;
+        boxes.forEach((content) => {
+          const boxTop = content.getBoundingClientRect().top;
+
+          if (boxTop < triggerBottom) {
+            content.classList.add("show");
+          } else {
+            content.classList.remove("show");
+          }
+        });
+      }
+      window.addEventListener("scroll", checkBoxes);
+
+      checkBoxes();
       var myVar;
 
       function myFunction() {
