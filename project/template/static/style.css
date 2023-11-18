@@ -10,7 +10,9 @@
   --darko: #00022e;
   --font: #fff;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   height: 100%;
@@ -25,6 +27,12 @@ body {
   background-image: linear-gradient(var(--dark), var(--blue));
   background-attachment: fixed;
   scroll-behavior: smooth;
+}
+@media (max-width: 500px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 header {
   margin-top: 7em;
