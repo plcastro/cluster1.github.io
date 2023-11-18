@@ -101,7 +101,7 @@
         ></div>
       </div>
       <main id="sec1" style="background-color: rgb(239, 239, 239)">
-        <div class="container-lg content">
+        <div class="container-lg">
           <section
             class="align-items-center d-flex justify-content-evenly"
             id="Overview"
@@ -199,7 +199,7 @@
             );
           "
         >
-          <div class="container content text-light">
+          <div class="container text-light">
             <div class="row d-flex justify-content-evenly">
               <div class="col-lg-5 col-md-5 col-sm-10">
                 <img
@@ -264,8 +264,8 @@
             background-size: cover;
           "
         >
-          <div class="container content">
-            <div class="content row d-flex justify-content-evenly">
+          <div class="container">
+            <div class="row d-flex justify-content-evenly">
               <div
                 class="col-md-10"
                 style="
@@ -740,7 +740,7 @@
           </div>
         </section>
         <section id="solutions" class="text-black">
-          <div class="container content">
+          <div class="container">
             <div class="row d-flex justify-content-center">
               <h3 class="col-lg-10 col-sm-12">Solutions and Strategies</h3>
               <div class="col-lg-5" align="justify" style="margin-top: 2em">
@@ -975,23 +975,6 @@
     </div>
 
     <script>
-      const boxes = document.querySelectorAll(".content");
-      function checkBoxes() {
-        const triggerBottom = (window.innerHeight / 5) * 4;
-        boxes.forEach((content) => {
-          const boxTop = content.getBoundingClientRect().top;
-
-          if (boxTop < triggerBottom) {
-            content.classList.add("show");
-          } else {
-            content.classList.remove("show");
-          }
-        });
-      }
-      window.addEventListener("scroll", checkBoxes);
-
-      checkBoxes();
-
       // audio auto stop
       document.addEventListener(
         "play",
